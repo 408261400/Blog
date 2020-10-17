@@ -1,10 +1,7 @@
 ## Welcome to Yuchen Blog
+    My name is Yu-Chen Kang. I am a sophomore at FU Jen Catholic University, and my major is computer science and information engineer. My hobby is painting. I also like to go shopping, therefore; I can go shopping all day without getting tired.
 
-You can use the [editor on GitHub](https://github.com/408261400/Blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### My Painting
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
