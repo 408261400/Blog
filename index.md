@@ -1,5 +1,6 @@
 ## Welcome to Yuchen Blog
-    My name is Yu-Chen Kang. I am a sophomore at FU Jen Catholic University, and my major is computer science and information engineer. My hobby is painting. I also like to go shopping, therefore; I can go shopping all day without getting tired.
+    My name is Yu-Chen Kang. I am a sophomore at FU Jen Catholic University, and my major is computer science and information engineer.
+    My hobby is painting. I also like to go shopping, therefore; I can go shopping all day without getting tired.
 
 ### My Painting
 
