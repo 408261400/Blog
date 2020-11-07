@@ -1,6 +1,13 @@
 <script>
   $(document).ready(function() {
     $("button").addClass("animated bounce");
+	  $("input").focus(function(){
+		    $(this).css("background-color", "gray");
+		  });
+		  $("input").blur(function(){
+		    $(this).css("background-color", "#C4E2FF");
+		  });
+		});
   });
 </script>
 <!DOCTYPE html>
