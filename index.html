@@ -6,7 +6,15 @@
 	<script>
   	 $(document).ready(function() {
     	 $("#target1").css("color", "red");
-    	 $("#target1").prop("disabled", true);
+    	 $("#target1").click(function(){
+    		$("#0").toggle();
+   	 	$("#1").hide();
+    		$("#2").hide();
+    		$("#gm").hide();
+   	 	$("#3").hide();
+    		$("#4").hide();
+    		$("#5").hide();
+    	 });
     	 $("#target4").remove();
    	 $("#target2").appendTo("#right-well");
    	 $("#target5").clone().appendTo("#left-well");
@@ -2703,9 +2711,13 @@
 			<div class="well" id="left-well">
 		<a href="images/fulls/01.jpg">
 		<img src="https://i.imgur.com/wWyzQF9.jpg" alt="" />
-		<button class="btn btn-default target" id="target1">learn more</button>
-		<h3>The Bottom of The Sea   水彩  2K</h3>
+	
 		</a>
+		<button class="btn btn-default target" id="target1">learn more</button>
+		<div class="row">		
+		<img id="0">
+			<h3>The Bottom of The Sea  水彩  2K</h3>
+		</div>
 		<a href="images/fulls/02.jpg">
 		<img src="https://i.imgur.com/2Emxa5p.jpg" alt="" />
 		<h3>峽谷</h3>
