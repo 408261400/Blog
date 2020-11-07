@@ -6,20 +6,13 @@
 	<script>
   	 $(document).ready(function() {
     	 $("#target1").css("color", "blue");
-    	
-    	 $("#target4").remove();
-   	 $("#target2").appendTo("#right-well");
-   	 $("#target5").clone().appendTo("#left-well");
    	 $("#target1").parent().css("background-color", "blue");
-   	 $("#right-well").children().css("color", "orange");
- 	 $("#left-well").children().css("color", "green");
+ 	 $("#left-well").children().css("color", "orange");
 	 $(".target:nth-child(2)").addClass("animated bounce");
-   	 $(".target:even").addClass("animated shake");
+	$("body").addClass("animated fadeOut");
 
  	 });
 </script>
-
-<!-- Only change code above this line -->
 
 <style>
 
@@ -2656,6 +2649,14 @@
 	
         <div id="wrapper">
 		<marquee style="margin:0px;opacity:0.75;" scrollamount="10"  bgcolor="#C4E1FF" noshade width="100%">Welcom to Yuchen's Bolg</marquee>
+		<div class="container-fluid">
+  					<div class="row">
+    					<div class="col-xs-6">
+					<div class="well" id="left-well">
+						<button class="btn btn-default target" id="target1">LIKE</button>
+						</div>
+					</div>
+					</div>
 		<header id="header">
 			<span class="avatar">
 				<img src="https://i.imgur.com/sZmzGqZ.jpg" alt="" />
@@ -2665,18 +2666,9 @@
 			<ul class="icons">
 				
 				<li>    
-					<div class="container-fluid">
-  					<div class="row">
-    					<div class="col-xs-6">
-					<div class="well" id="left-well">
-					<button class="btn btn-default target" id="target1" onclick="location.href='https://www.facebook.com/nini.kang.9' title="Facebook page">Fackbook
-						</button>
 					<a href="https://www.facebook.com/nini.kang.9" title="Facebook page" target="_blank"]);">
 					<span class="label">Fackbook</span>
 					</a>
-					</div>
-					</div>
-					</div>
 			
 				</li>
 				<li>	
@@ -2687,12 +2679,6 @@
 			</ul>
 		</head>
 	    <section id="main">
-		     
-   
-        
-        <button class="btn btn-default target" id="target2">#target2</button>
-        <button class="btn btn-default target" id="target3">#target3</button>
-    
 		<section class="thumbnails">
 		<div>
 		<a href="images/fulls/01.jpg">
