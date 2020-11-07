@@ -6,15 +6,7 @@
 	<script>
   	 $(document).ready(function() {
     	 $("#target1").css("color", "red");
-    	 $("#target1").click(function(){
-    		$("#0").toggle();
-   	 	$("#1").hide();
-    		$("#2").hide();
-    		$("#gm").hide();
-   	 	$("#3").hide();
-    		$("#4").hide();
-    		$("#5").hide();
-    	 });
+    	
     	 $("#target4").remove();
    	 $("#target2").appendTo("#right-well");
    	 $("#target5").clone().appendTo("#left-well");
@@ -2673,9 +2665,17 @@
 			<ul class="icons">
 				
 				<li>    
+					<div class="container-fluid">
+  					<div class="row">
+    					<div class="col-xs-6">
+					<div class="well" id="left-well">
+					<button class="btn btn-default target" id="target1">Fackbook</button>
 					<a href="https://www.facebook.com/nini.kang.9" title="Facebook page" target="_blank"]);">
 					<span class="label">Fackbook</span>
 					</a>
+					</div>
+					</div>
+					</div>
 			
 				</li>
 				<li>	
@@ -2694,22 +2694,10 @@
     
 		<section class="thumbnails">
 		<div>
-			<div class="container-fluid">
-  			<div class="row">
-    			<div class="col-xs-6">
-			<div class="well" id="left-well">
 		<a href="images/fulls/01.jpg">
+			<img src="https://i.imgur.com/wWyzQF9.jpg" alt="" />
 			<h3>The Bottom of The Sea  水彩  2K</h3>
-		<button class="btn btn-default target" id="target1">picture</button>
-	
 		</a>
-		    </div>
-  		</div>
-		</div>
-		<div class="row">		
-		<div img id="0">
-			<img src="https://i.imgur.com/wWyzQF9.jpg" alt="" /></div>
-		</div>
 		<a href="images/fulls/02.jpg">
 		<img src="https://i.imgur.com/2Emxa5p.jpg" alt="" />
 		<h3>峽谷</h3>
