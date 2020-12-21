@@ -2655,6 +2655,90 @@
 	
         <div id="wrapper">
 		<marquee style="margin:0px;opacity:0.75;" scrollamount="10"  bgcolor="#C4E1FF" noshade width="100%">Welcom to Yuchen's Bolg</marquee>
+		
+		
+		<div class="slider_container">
+	<div>
+		<img src="images/image1.png" alt="pure css3 slider" />
+		<span class="info">Image Description 1</span>
+	</div>
+	<div>
+		<img src="images/image2.png" alt="pure css3 slider" />
+		<span class="info">Image Description 2</span>
+	</div>
+	<div>
+		<img src="images/image3.png" alt="pure css3 slider" />
+		<span class="info">Image Description 3</span>
+	</div>
+	<div>
+		<img src="images/image4.png" alt="pure css3 slider" />
+		<span class="info">Image Description 4</span>
+	</div>
+	<div>
+		<img src="images/image5.png" alt="pure css3 slider" />
+		<span class="info">Image Description 5</span>
+	</div>
+</div>
+		.slider_container {
+    margin: 30px auto;
+    width: 400px;
+    height: 280px;
+    position: relative;
+    border: 20px solid;    
+    border-color: #fff;
+    border-bottom-width: 100px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+}
+
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+		.slider_container div {
+    -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+}
+
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+		
+		
 		<div class="container-fluid">
 		<header id="header">
 			<span class="avatar">
